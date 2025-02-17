@@ -7,36 +7,28 @@
 }
 
 .navbar-brand img{
-    width: 50%;
+    width: 50% !important;
 }
 .navbar-brand:hover{
-    color: azure;
-}
-.my-img{
-    border-radius: ;
-
+    color: azure !important;
 }
 
+.project-shadow{
+   
+}
 
 
 
 
+
+
+/* animation part start */
 
 
 .hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
 @keyframes hu__hu__ {
     50% { transform: translateY(30px) }
 }
-
-
-
-
-
-
-
-
-
-
 
 @keyframes move {
     100% {
@@ -247,3 +239,5 @@
     transform-origin: -12vw 22vh;
     box-shadow: 40vmin 0 5.010069452579151vmin currentColor;
 }
+
+/* aniomation part end */
