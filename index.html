@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 
-<body style="background-color: #040b14; color: azure;">
+<body style="background-color: #222e3d; color: azure;">
   <header>
     <nav class="navbar navbar-expand-lg position-relative z-3">
       <div class="container-fluid ">
@@ -36,8 +36,9 @@
             <li class="nav-item p-3">
               <a class="nav-link " aria-disabled="true">Skills</a>
             </li>
-            <li class="nav-item p-3">
-              <a class="nav-link " aria-disabled="true">Contact</a>
+            <li class="nav-item p-4">
+              <a href="#login" class="btn  btn-sm text-light" data-bs-toggle="modal"
+                style="background-color: #3168b48c;">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -46,11 +47,63 @@
   </header>
 
 
+  <section>
+    <div class="modal fade" id="login">
+      <div class="modal-dialog modal-dialog-centered ">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h5 class="modal-title ">Apply for now</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row p-4">
+              <div class="col-12">
+                <label for="" class="form-label">Name:</label>
+                <div class="input-group">
+                  <span class="input-group-text">👤</span>
+                  <input type="text" placeholder="Enter your name" class="form-control form-control-sm">
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="" class="form-label">Email:</label>
+                <div class="input-group">
+                  <span class="input-group-text">📧</span>
+                  <input type="text" placeholder="Enter your Email" class="form-control form-control-sm">
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="" class="form-label">Phone:</label>
+                <div class="input-group">
+                  <span class="input-group-text">📞</span>
+                  <input type="text" placeholder="Enter your phone" class="form-control form-control-sm">
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="" class="form-label">Massage:</label>
+                <div class="input-group">
+                  <span class="input-group-text"><i class="fa-solid fa-message"></i></span>
+                  <input type="text" placeholder="Send your Massage " class="form-control form-control-sm">
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-sm  btn-success">Submit</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 
   <div class="container-fluid position-relative overflow-hiden">
 
-    <video width="100%" height="" class="position-absolute top-70 start-50 translate-middle 5 pt-5  "
+    <video width="100%" height="" class="position-absolute top-70 start-50 translate-middle     "
       style="margin-top: 235px;" muted="" autoplay="" loop="">
       <source src="animation.mp4" type="video/mp4">
       <source src="animation.mp4" type="video/ogg">
@@ -89,12 +142,13 @@
           <div class="text-center p-3">
             <i class="fa-solid fa-user fs-1 "></i>
           </div>
-          <p style="color: gray;" class="text-center">Could you share a little more about what you'd like to include in an "about me"? It
+          <p style="color: gray;" class="text-center">Could you share a little more about what you'd like to include in
+            an "about me"? It
             could be about your
             hobbies, interests, career, or anything else you want to highlight! I'd love to help you craft something
             that fits you.</p>
           <br>
-         
+
         </div>
       </div>
     </div>
@@ -145,19 +199,24 @@
       <div class="text-center text-light fs-1 fw-bold mt-5 pt-5 pb-5 ">Skills</div>
       <div class="row p-3 d-flex justify-content-center align-items-center">
         <div class="col-lg-2 p-4">
-          <img src="photos/html.webp" alt="" class="img-fluid w-100">
+          <i class="fa-brands fa-html5 ps-2" style="font-size: 80px;"></i>
+          <h2 class="pe-3">HTML</h2>
         </div>
-        <div class="col-lg-2 p-4">
-          <img src="photos/css.png" alt="" class="img-fluid w-100">
+        <div class="col-lg-2 p-3">
+          <i class="fa-brands fa-css3-alt " style="font-size: 80px;"></i>
+          <h2 class="pe-3">CSS</h2>
         </div>
-        <div class="col-lg-2 p-4">
-          <img src="photos/media.png" alt="" class="img-fluid w-100">
+        <div class="col-lg-2 p-3">
+          <i class="fa-brands fa-html5 ps-4" style="font-size: 80px;"></i>
+          <h2 class="pe-4">M-QUERY</h2>
         </div>
-        <div class="col-lg-2 p-4">
-          <img src="photos/jquary.png" alt="" class="img-fluid w-100">
+        <div class="col-lg-2 p-3 ">
+          <i class="fa-brands fa-html5 ps-4" style="font-size: 80px;"></i>
+          <h2 class="pe-3">JQUERY</h2>
         </div>
-        <div class="col-lg-2 p-4">
-          <img src="photos/boolstrap.png" alt="" class="img-fluid w-100">
+        <div class="col-lg-2 pe-1">
+          <i class="fa-brands fa-bootstrap ps-5" style="font-size: 80px;"></i>
+          <h2 class="ps-1">BOOLSTRAP</h2>
         </div>
       </div>
     </div>
@@ -297,6 +356,49 @@
         </button>
       </div>
     </div>
+
+
+
+
+    <section>
+      <footer>
+        <div class="container-fluid mt-5 pt-5" style="height: 400px; background-color: #152337 !important;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="list mt-5 ">
+                  <a href="">Home</a> <br>
+                  <a href="">About me</a> <br>
+                  <a href="">Project</a><br>
+                  <a href="">Skills</a><br>
+                  <a href="">Testimonial</br>
+                    <a href="">Services</a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="text-center text-light fs-4 fw-bold pe-5 me-5"> Contact </div>
+
+                <div class="contact mt-5 ">
+                  <div class="first fs-5 "><i class="fa-solid fa-user"> &nbsp; :</i> &nbsp;&nbsp;KRUSHNAL BHATTI</div>
+                  <br>
+                  <div class="first fs-5 "><i class="fa-solid fa-phone"> &nbsp; :</i> &nbsp;&nbsp;6359599355</div> <br>
+                  <div class="first fs-5 "><i class="fa-solid fa-envelope"> &nbsp; :</i>
+                    &nbsp;&nbsp;KRUSHNALBHATTIIT2@GMAIL.COM</div>
+                </div>
+              </div>
+              <div class="col-lg-4 mt-5 pt-4  justify-content-center align-items-center  ">
+                <div class="d-flex  icon ">
+                  <a href=""><i class="fa-brands fa-github fs-2 ps-5 text-light icon" > </i></a>
+                 <a href=""> <i class="fa-brands fa-instagram ps-5 fs-2 text-light icon"></i> </a>
+                 <br>
+                 <a href=""> <i class="fa-brands fa-whatsapp fs-2 ps-5 text-light icon"></i></a>
+                  <a href=""><i class="fa-brands fa-snapchat fs-2 ps-5 text-light icon"></i></a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
 
 </body>
 <script src="bootstrap.bundle.min.js"></script>
