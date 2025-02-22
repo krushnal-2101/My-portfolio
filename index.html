@@ -11,27 +11,28 @@
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body style="background-color: #222e3d; color: azure;">
   <header>
     <nav class="navbar navbar-expand-lg position-relative z-3">
       <div class="container-fluid ">
-        <a class="navbar-brand  " href="#"><img src="photos/logo.png " loading="lazy" alt="" ></a>
+        <a class="navbar-brand  " href="#"><img src="photos/logo.png " loading="lazy" alt="" data-aos="zoom-in-right" data-aos-duration="800"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end  pe-5 " id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item p-3">
+            <li class="nav-item p-3" data-aos="zoom-in-left" data-aos-duration="800">
               <a class="nav-link active" aria-current="page" href="#">About</a>
             </li>
-            <li class="nav-item p-3">
+            <li class="nav-item p-3" data-aos="zoom-in-left" data-aos-duration="800">
               <a class="nav-link" href="#">Portfolio</a>
             </li>
            
-            <li class="nav-item p-4">
+            <li class="nav-item p-4"data-aos="zoom-in-left " data-aos-duration="800">
               <a href="#login" class="btn  btn-sm text-light" data-bs-toggle="modal"
                 style="background-color: #3168b48c;">Contact Me</a>
             </li>
@@ -45,7 +46,7 @@
   <section>
     <div class="modal fade" id="login">
       <div class="modal-dialog modal-dialog-centered ">
-        <div class="modal-content bg-dark">
+        <div class="modal-content " style="background-color: rgb(141, 166, 192) !important; ;">
           <div class="modal-header">
             <h5 class="modal-title ">Contact form</h5>
             <button class="btn-close" data-bs-dismiss="modal"></button>
@@ -99,26 +100,23 @@
   <div class="container-fluid position-relative overflow-hiden">
 
     <video  height="1200px" class="position-absolute top-70 start-50 translate-middle     "
-      style="margin-top: 235px;" muted="" autoplay="" loop="">
-      <source src="animation - Trim.mp4" type="video/mp4" loading="lazy">
-      <source src="animation - Trim.mp4" type="video/ogg" loading="lazy">
+      style="margin-top: 190px;" muted="" autoplay="" loop="">
+      <source src="animation - Trim - Trim.mp4" type="video/mp4" loading="lazy">
+      <source src="animation - Trim - Trim.mp4" type="video/ogg" loading="lazy">
     </video>
+  
   </div>
   <div class="container  ">
-    <div
-      class="row row-cols-xs-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 position-relative justify-content-center align-items-center">
-      <div
-        class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  border-danger border-2 p-5 align-items-center position-about justify-content-center ">
-        <div class=" ">
+    <div class="row row-cols-xs-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 position-relative justify-content-center align-items-center">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  border-danger border-2 p-5 align-items-center position-about justify-content-center "  data-aos="fade-up-right" data-aos-duration="1500">
           <h3 class="" style="color: aquamarine;">HELLO I'M</h3>
-        </div>
         <div class="cssanimation hu__hu__   border-2 justify-content-center ">
           <h1 class="pb-4">Krushnal Bhatti</h1>
         </div>
         <p class="fs-4">I'm Full Stack Devloper</p>
       </div>
-      <div class="col-lg-6 col-md-12 col-sm-12    col-xs-12 col-12 border-danger border-2 p-2 mb-5 ">
-        <img src="photos/my2.jpeg" loading="lazy" alt="" class="img-fluid  my-img h-100 w-100   rounded-circle  shadow  " ;">
+      <div class="col-lg-6 col-md-12 col-sm-12    col-xs-12 col-12 border-danger border-2 p-2 mb-5 " data-aos="fade-up-left" data-aos-duration="1500">
+        <img src="photos/my2.jpeg" loading="lazy" alt="" class="img-fluid  my-img h-100 w-100   rounded-circle  shadow ;" ;>
       </div>
     </div>
   </div>
@@ -129,12 +127,12 @@
   <section>
     <div class="container mt-5 pt-5">
       <div class="row">
-        <div class="col-lg-6 mt-5 pt-5">
-          <img src="photos/gif.gif" alt="" class="w-100 h-70 img-fluid rounded-circle  ">
-
+        <div class="col-lg-6 mt-5 pt-5" data-aos="fade-right" data-aos-duration="1000" >
+          <img src="photos/gif.gif" alt="" class="w-100 h-70 img-fluid rounded-circle  "> 
         </div>
-        <div class="col-lg-6 mt-5 pt-5">
+        <div class="col-lg-6 mt-5 pt-5"data-aos="fade-left" data-aos-duration="1000">
           <div class="text-center text-light fs-3 fw-bold mt-5 pt-5 pb-5">About Me</div>
+          <p class="w-25 border-bottom mb-5 m-auto"></p>
           <div class="text-center p-3">
             <i class="fa-solid fa-user fs-1 "></i>
           </div>
@@ -144,7 +142,6 @@
             hobbies, interests, career, or anything else you want to highlight! I'd love to help you craft something
             that fits you.</p>
           <br>
-
         </div>
       </div>
     </div>
@@ -153,39 +150,40 @@
 
   <section>
     <div class="container-fluid mt-5 p-4 pt-5">
-      <div class="text-center text-light fs-1 fw-bold mt-5 pt-5 pb-5  ">Project</div>
-      <div class="row justify-content-center align-items-center">
-        <div class="col-lg-4   border border-success-subtle border-3  p-3  text-center ">
+      <div class="text-center text-light fs-1 fw-bold mt-5 pt-5 pb-3 " data-aos="fade-down" data-aos-duration="2000">Project</div>
+      <p class="w-25 border-bottom mb-5 m-auto"></p>
+      <div class="row justify-content-center align-items-center"> 
+        <div class="col-lg-4   border border-success-subtle border-3  p-3  text-center " data-aos="zoom-out-up"data-aos-duration="1500">
           <div class=" margin" style="box-shadow: rgb(19, 252, 193) 0px 3px 8px !important; ">
           <img src="video/reco-1.gif" alt="" class="img-fluid w-100 ">
           </div>
           <a href="https://crypto-m5-i1vh.vercel.app/" class="open"> Visit Now</a>
         </div>
-        <div class="col-lg-4  border border-success-subtle border-3  p-3 text-center ">
+        <div class="col-lg-4  border border-success-subtle border-3  p-3 text-center "  data-aos="zoom-out-up"data-aos="flip-up">
           <div class="  margin " style="box-shadow: rgb(19, 252, 193) 0px 3px 8px !important;">
             <img src="video/reco-2.gif" alt="" class="img-fluid w-100">
           </div>
           <a href="https://adminator-nu2f.vercel.app/" class="open"> Visit Now</a>
         </div>
-        <div class="col-lg-4  border border-success-subtle border-3  p-3 text-center">
+        <div class="col-lg-4  border border-success-subtle border-3  p-3 text-center"  data-aos="zoom-out-up"data-aos-duration="1500">
           <div class="  margin " style="box-shadow: rgb(19, 252, 193) 0px 3px 8px !important;">
             <img src="video/reco-3.gif" alt="" class="img-fluid w-100">
           </div>
           <a href="https://pestkit2.vercel.app/" class="open"> Visit Now</a>
         </div>
-        <div class="col-lg-4  border border-success-subtle border-3  p-3 text-center">
+        <div class="col-lg-4  border border-success-subtle border-3  p-3 text-center"  data-aos="zoom-out-up"data-aos-duration="1500">
           <div class="  margin" style="box-shadow: rgb(19, 252, 193) 0px 3px 8px !important;">
             <img src="video/reco-4.gif" alt="" class="img-fluid w-100">
           </div>
           <a href="https://min-width-project.vercel.app/  " class="open"> Visit Now</a>
         </div>
-        <div class="col-lg-4  border border-success-subtle border-3  p-3 text-center">
+        <div class="col-lg-4  border border-success-subtle border-3  p-3 text-center"  data-aos="zoom-out-up"data-aos-duration="1500">
           <div class="  margin" style="box-shadow: rgb(19, 252, 193) 0px 3px 8px !important;">
             <img src="video/reco-5.gif" alt="" class="img-fluid w-100">
           </div>
           <a href="https://adminator-fizn1oyvx-krushnal-2101s-projects.vercel.app/" class="open"> Visit Now</a>
         </div>
-        <div class="col-lg-4  border border-success-subtle border-3  p-3 text-center">
+        <div class="col-lg-4  border border-success-subtle border-3  p-3 text-center"  data-aos="zoom-out-up"data-aos-duration="1500">
           <div class="  margin" style="box-shadow: rgb(19, 252, 193) 0px 3px 8px !important;">
             <img src="video/reco-6.gif" alt="" class="img-fluid w-100">
           </div>
@@ -198,8 +196,9 @@
 
   <section>
     <div class="container mt-5 pt-5 pb-5 ">
-      <div class="text-center text-light fs-1 fw-bold mt-5 pt-5 pb-5 ">Skills</div>
-      <div class="container bg-light skill " style=" border-radius: 20px;">
+      <div class="text-center text-light fs-1 fw-bold mt-5 pt-5 pb-3 " data-aos="fade-down" data-aos-duration="2000">Skills</div>
+      <p class="w-25 border-bottom mb-5 m-auto"></p>
+      <div class="container  skill " style=" border-radius: 20px; background-color: rgb(187 205 223) !important;"  data-aos="flip-up" data-aos-duration="1500">
       <div class="row p-3 d-flex justify-content-center align-items-center">
         <div class="col-lg-3 p-3 text-center ">
          <img src="photos/icons8-html-50.png" alt="" class="fs-4">
@@ -222,26 +221,69 @@
     </div>
   </section>
 
+  <section>
+    <div class="container mt-5 pt-5 pb-5">
+      <div class="text-center text-light fs-1 fw-bold mt-5 pt-5 pb-3 " data-aos="fade-down" data-aos-duration="2000">Services</div>
+      <p class="w-25 border-bottom mb-5 m-auto"></p>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5 pt-5 me-2 text-center rounded pb-5" style="background-color: rgb(187 205 223) !important;" data-aos="zoom-out-right" data-aos-duration="1500">
+             <div class="text-img ">
+              <img src="photos/img-2.svg" alt="img-fluid"  >
+              <h5 class="pt-4 text-secondary ">Web Devlopers</h5>
+             </div>
+            <p class="text-light-emphasis ">
+              Senior software engineers, coders, <br> and architects with expertise across <br> hundreds of technologies.
+            </p>
+      </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5 pt-5  text-center rounded pb-5" style="background-color: rgb(187 205 223) !important;" data-aos="zoom-out-left" data-aos-duration="1500">
+             <div class="text-img ">
+              <img src="photos/img-1.svg" alt="img-fluid" class=" " >
+              <h5 class="pt-4 text-secondary ">Web Designer</h5>
+             </div>
+            <p class="text-light-emphasis ">
+              Expert UI, UX, Visual, and Interaction <br> designers as well as a wide range of <br>illustrators, animators, and more.
+            </p>
+      </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5 pt-5  text-center rounded pb-5" style="background-color: rgb(187 205 223) !important;" data-aos="zoom-out-right" data-aos-duration="1500">
+             <div class="text-img ">
+              <img src="photos/img-4.svg" alt="img-fluid" class="4 " >
+              <h5 class="pt-4 text-secondary ">Project Managers</h5>
+             </div>
+            <p class="text-light-emphasis ">
+              Digital and technical project managers,<br> scrum masters, and more with expertise <br> in numerous PM tools, frameworks, and styles.
+            </p>
+      </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5 pt-5 ms-2 text-center rounded pb-5" style="background-color: rgb(187 205 223) !important;" data-aos="zoom-out-left" data-aos-duration="1500">
+             <div class="text-img ">
+              <img src="photos/img-5.svg" alt="img-fluid" class=" " >
+              <h5 class="pt-4 text-secondary ">Product Managers</h5>
+             </div>
+            <p class="text-light-emphasis ">
+              Digital product managers and scrum product <br> owners with expertise in numerous industries <br> like banking, healthcare, ecommerce, and more.
+            </p>
+      </div>
+      
+    </div>
+  </section>
   
 
   <section>
     <div class="container mt-5 pt-5 pb-5 ">
-
-
-      <div class="text-center text-light fs-1 fw-bold mt-5 pt-5 pb-5">Testimonial</div>
-
-
+      <div class="text-center text-light fs-1 fw-bold mt-5 pt-5 pb-3" data-aos="fade-down" data-aos-duration="2000">Testimonial</div>
+      <p class="w-25 border-bottom mb-5 m-auto"></p>
       <div id="carouselExampleFade" class="carousel slide carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row g-4 mt-5 pt-5 justify-content-center align-items-center">
-              <div class="col-sm-6 col-md-8 col-lg-8 border  text-light  p-2 rounded m-1">
+              <div class="col-sm-6 col-md-8 col-lg-8 border  text-light  p-2 rounded m-1"  data-aos="fade-up"
+              data-aos-anchor-placement="center-center" data-aos-duration="800">
                 <div class="text-center  ">
+
                   <img src="photos/mit.jpg"loading="lazy" alt="" width="120px" class=" img-fluid rounded-circle ">
                   <h5 class="p-3 ">Mit vaghela</h5>
-                  <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
+                  <p><i class="fa-solid fa-quote-left fs-4"></i> &nbsp; Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
                     publishing, and web
-                    development to fill empty spaces in a layout that does not yet have content.</p>
+                    development to fill empty spaces in a layout that does not yet have content. &nbsp; <i class="fa-solid fa-quote-right fs-4"></i></p>
                   <i class="fa-brands fa-square-instagram m-1  fs-3"></i>
                   <i class="fa-brands fa-square-snapchat  m-1 fs-3"></i>
                   <i class="fa-brands fa-square-whatsapp  m-1 fs-3"></i>
@@ -251,13 +293,14 @@
           </div>
           <div class="carousel-item">
             <div class="row g-4 mt-5 pt-5 justify-content-center align-items-center">
-              <div class="col-sm-6 col-md-8 col-lg-8 border  text-light p-2 rounded m-1">
+              <div class="col-sm-6 col-md-8 col-lg-8 border  text-light p-2 rounded m-1"  data-aos="fade-up"
+              data-aos-anchor-placement="center-center" data-aos-duration="800">
                 <div class="text-center  ">
                   <img src="photos/jay.jpg"loading="lazy" alt=""  width="120px" class=" img-fluid rounded-circle ">
                   <h5 class="p-3 ">Jay Parmar</h5>
-                  <p >Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
+                  <p><i class="fa-solid fa-quote-left fs-4"></i> &nbsp; Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
                     publishing, and web
-                    development to fill empty spaces in a layout that does not yet have content.</p>
+                    development to fill empty spaces in a layout that does not yet have content. &nbsp; <i class="fa-solid fa-quote-right fs-4"></i></p>
                   <i class="fa-brands fa-square-instagram m-1  fs-3"></i>
                   <i class="fa-brands fa-square-snapchat  m-1 fs-3"></i>
                   <i class="fa-brands fa-square-whatsapp  m-1 fs-3"></i>
@@ -267,13 +310,14 @@
           </div>
           <div class="carousel-item">
             <div class="row g-4 mt-5 pt-5 justify-content-center align-items-center">
-              <div class="col-sm-6  bordercol-md-8 col-lg-8 border  text-light p-2 rounded m-1 ">
+              <div class="col-sm-6  bordercol-md-8 col-lg-8 border  text-light p-2 rounded m-1 "  data-aos="fade-up"
+              data-aos-anchor-placement="center-center" data-aos-duration="800">
                 <div class="text-center  ">
                   <img src="photos/parth.jpg" alt="" width="120px" class=" img-fluid rounded-circle ">
                   <h5 class="p-3 ">Parth Barad</h5>
-                  <p >Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
+                  <p><i class="fa-solid fa-quote-left fs-4"></i> &nbsp; Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
                     publishing, and web
-                    development to fill empty spaces in a layout that does not yet have content.</p>
+                    development to fill empty spaces in a layout that does not yet have content. &nbsp; <i class="fa-solid fa-quote-right fs-4"></i></p>
                   <i class="fa-brands fa-square-instagram m-1  fs-3"></i>
                   <i class="fa-brands fa-square-snapchat  m-1 fs-3"></i>
                   <i class="fa-brands fa-square-whatsapp  m-1 fs-3"></i>
@@ -283,13 +327,14 @@
           </div>
           <div class="carousel-item">
             <div class="row g-4 mt-5 pt-5 justify-content-center align-items-center">
-              <div class="col-sm-6col-md-8 col-lg-8 border  text-light p-2 rounded m-1 ">
+              <div class="col-sm-6col-md-8 col-lg-8 border  text-light p-2 rounded m-1 "  data-aos="fade-up"
+              data-aos-anchor-placement="center-center" data-aos-duration="800">
                 <div class="text-center ">
                   <img src="photos/bholu.jpg" loading="lazy" alt="" width="120px" class=" img-fluid rounded-circle ">
                   <h5 class="p-3 " >Kartik Bhatti</h5>
-                  <p >Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
+                  <p><i class="fa-solid fa-quote-left fs-4"></i> &nbsp; Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
                     publishing, and web
-                    development to fill empty spaces in a layout that does not yet have content.</p>
+                    development to fill empty spaces in a layout that does not yet have content. &nbsp; <i class="fa-solid fa-quote-right fs-4"></i></p>
                   <i class="fa-brands fa-square-instagram m-1  fs-3"></i>
                   <i class="fa-brands fa-square-snapchat  m-1 fs-3"></i>
                   <i class="fa-brands fa-square-whatsapp  m-1 fs-3"></i>
@@ -299,13 +344,14 @@
           </div>
           <div class="carousel-item">
             <div class="row g-4 mt-5 pt-5 justify-content-center align-items-center">
-              <div class="col-sm-6 col-md-8 col-lg-8 border  text-light p-2 rounded m-1 ">
+              <div class="col-sm-6 col-md-8 col-lg-8 border  text-light p-2 rounded m-1 "  data-aos="fade-up"
+              data-aos-anchor-placement="center-center" data-aos-duration="800">
                 <div class="text-center k ">
                   <img src="photos/parth.jpg" alt=""loading="lazy" width="120px" class=" img-fluid rounded-circle ">
                   <h5 class="p-3 " >Tirth vaghela</h5>
-                  <p >Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
+                  <p><i class="fa-solid fa-quote-left fs-4"></i> &nbsp; Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
                     publishing, and web
-                    development to fill empty spaces in a layout that does not yet have content.</p>
+                    development to fill empty spaces in a layout that does not yet have content. &nbsp; <i class="fa-solid fa-quote-right fs-4"></i></p>
                   <i class="fa-brands fa-square-instagram m-1  fs-3"></i>
                   <i class="fa-brands fa-square-snapchat  m-1 fs-3"></i>
                   <i class="fa-brands fa-square-whatsapp  m-1 fs-3"></i>
@@ -315,13 +361,14 @@
           </div>
           <div class="carousel-item">
             <div class="row g-4 mt-5 pt-5 justify-content-center align-items-center">
-              <div class="col-sm-6 col-md-8 col-lg-8 border  text-light p-2 rounded m-1 ">
+              <div class="col-sm-6 col-md-8 col-lg-8 border  text-light p-2 rounded m-1 "  data-aos="fade-up"
+              data-aos-anchor-placement="center-center" data-aos-duration="800">
                 <div class="text-center  ">
                   <img src="photos/parth.jpg" alt=""loading="lazy"   width="120px" class=" img-fluid rounded-circle ">
                   <h5 class="p-3 ">Amit Dabhi</h5>
-                  <p >Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
+                  <p><i class="fa-solid fa-quote-left fs-4"></i> &nbsp; Lorem ipsum is a dummy or placeholder text commonly used in graphic design,
                     publishing, and web
-                    development to fill empty spaces in a layout that does not yet have content.</p>
+                    development to fill empty spaces in a layout that does not yet have content. &nbsp; <i class="fa-solid fa-quote-right fs-4"></i></p>
                   <i class="fa-brands fa-square-instagram m-1  fs-3"></i>
                   <i class="fa-brands fa-square-snapchat  m-1 fs-3"></i>
                   <i class="fa-brands fa-square-whatsapp  m-1 fs-3"></i>
@@ -349,7 +396,7 @@
         <div class="container-fluid mt-5 pt-5 pb-5" style="height: 100%; background-color: #152337 !important;">
           <div class="container">
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-4"data-aos="zoom-in-right" data-aos-duration="1000" >
                 <div class="list mt-5 ">
                   <a href="">Home</a> <br>
                   <a href="">About me</a> <br>
@@ -359,9 +406,9 @@
                     <a href="">Services</a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4" data-aos="zoom-in"data-aos-duration="1000">
                 <div class="text-center text-light fs-4 fw-bold pe-5 me-5">My Contact </div>
-
+          
                 <div class="contact mt-5 ">
                   <div class="first  "><i class="fa-solid fa-user"> &nbsp; :</i> &nbsp;&nbsp;KRUSHNAL BHATTI</div>
                   <br>
@@ -372,19 +419,19 @@
                     &nbsp;&nbsp;BHAVNAGAR,GUJRAT,364001</div>
                 </div>
               </div>
-              <div class="col-lg-4 mt-5 pt-4  justify-content-center align-items-center  ">
+              <div class="col-lg-4 mt-5 pt-4  justify-content-center align-items-center  " data-aos="zoom-in-left" data-aos-duration="1000">
                 <div class="d-flex  icon pb-3">
                   <a href="https://github.com/dashboard"><i class="fa-brands fa-github fs-2 ps-5 text-light icon" > </i></a>
-                 <a href="https://instagram.com/krushnal_bhatti_02"> <i class="fa-brands fa-instagram ps-5 fs-2 text-light icon"></i> </a>
+                 <a href="https://www.instagram.com/Krushnal_bhatti_02"> <i class="fa-brands fa-instagram ps-5 fs-2 text-light icon"></i> </a>
                  <br>
-                 <a href="https://snapchat.com/krushnal_bhatti"> <i class="fa-brands fa-whatsapp fs-2 ps-5 text-light icon"></i></a>
-                  <a href=""><i class="fa-brands fa-snapchat fs-2 ps-5 text-light icon"></i></a>
+                 <a href="https://whatsapp.com/6359599355"> <i class="fa-brands fa-whatsapp fs-2 ps-5 text-light icon "></i></a>
+                  <a href="https://snapchat.com/krushnal_bhatti"><i class="fa-brands fa-snapchat fs-2 ps-5 text-light icon"></i></a>
                 </div>
             </div>
           </div>
         </div>
         </div>
-        <div class="container-fluid " style="height: 50px; background-color: rgb(137 78 84) !important;">
+        <div class="container-fluid " style="height: 50px; background-color: rgb(137 78 84) !important;" data-aos="zoom-in"data-aos-duration="1000" >
           <div class="justify-content-center align-items-center">
             <div class="text-center pt-1 fs-3 fw-bold">
               Thanks For Watching
@@ -397,6 +444,8 @@
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>

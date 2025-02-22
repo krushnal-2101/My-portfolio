@@ -61,6 +61,11 @@ a i:hover{
     margin-bottom: 30px;
 }
 
+.navbar-toggler{
+    align-items: end !important ;
+    text-align: end !important;
+}
+
 /* animation part start */
 
 
