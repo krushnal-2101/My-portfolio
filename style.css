@@ -72,6 +72,12 @@ a i:hover{
     text-align: end !important;
 }
 
+
+.photo:hover{
+    scale:0.9;
+    transition: 0.5s;
+}
+
 /* animation part start */
 
 
