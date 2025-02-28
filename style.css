@@ -56,12 +56,17 @@ a i:hover{
 
 .open {
     text-decoration: none;
-    color: white;
-    background-color:rgb(99 173 148);
+    color: black;
+    background-color: rgb(187 205 223);
     border: 1px solid rgba(255, 255, 255, 0.418); 
     padding: 10px 35px ;
     font-size: 17px;
     border-radius: 20px;
+}
+.open:hover{
+    color: white;
+    background-color: #152337;
+    transition: all 0.5s;
 }
 .margin {
     margin-bottom: 30px;
